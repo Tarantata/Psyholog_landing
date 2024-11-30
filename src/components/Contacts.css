@@ -1,0 +1,125 @@
+.contacts {
+  max-width: 1440px;
+  display: flex;
+  justify-content: center; 
+  padding-bottom: 272px;
+  scroll-margin-top: 120px;
+}
+
+.contacts_frame {
+  max-width: 1280px;
+  width: 100%;   
+  display: flex;
+  flex-direction: column; 
+}
+
+.contacts_top { 
+  background-color: #244CBB;
+  display: flex;
+  justify-content: space-between;  
+}
+
+.contacts_info {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+}
+
+.contacts_contacts {
+  font-size: 48px;
+  font-family: "Comfortaa", Arial, Helvetica, sans-serif;
+  color: #C8DAEE;
+  margin: 204px 0px 0px 104px;
+}
+
+.contacts_name {
+  margin: 36px 36px 36px 0px;  
+  text-align: center;
+  max-width: 518px;
+  font-size: 64px;
+  font-family: "Comfortaa", Arial, Helvetica, sans-serif;
+  color: #C8DAEE; 
+}
+
+.contacts_option {
+  display: flex;
+  font-size: 22px;
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+  color: #244CBB;
+  margin: 44px 0px 0px 95px; 
+}
+
+.contacts_images {
+  height: 80px;
+  width: 80px;
+  margin-right: 16px;
+}
+
+@media (max-width: 1280px) {
+  .contacts_name {
+    font-size: 48px;
+    margin: 24px 24px 24px 0px;
+  }
+  .contacts_contacts {
+    font-size: 40px;
+    margin-top: 140px;
+  }
+  .contacts_option {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .contacts_name {
+    font-size: 42px;   
+  }
+  .contacts_contacts {
+    font-size: 32px;
+    margin: 114px 160px 10px 40px;   
+  }
+  .contacts_option {
+    font-size: 16px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .contacts_images {
+    height: 60px;
+    width: 60px;
+    margin-right: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .contacts_name {
+    font-size: 32px;   
+  }
+  .contacts_contacts {
+    font-size: 24px;
+    margin: 114px 160px 10px 40px;   
+  }
+  .contacts_option {
+    font-size: 14px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .contacts_images {
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+  }
+}
+
+@media (max-width: 640px) {
+  .contacts_name {
+    font-size: 24px;   
+  }
+  .contacts_contacts {
+    font-size: 16px;
+    margin-top: 82px;   
+  }
+  .contacts_option {
+    font-size: 10px;    
+  }  
+}
+
+

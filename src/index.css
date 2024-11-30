@@ -1,0 +1,6 @@
+@font-face {
+  font-family: "Comfortaa";
+  src: url("./components/fonts/Comfortaa-VariableFont_wght.ttf") format("ttf");
+  font-family: "Raleway";
+  src: url("./components/fonts/Raleway.ttf") format("ttf");
+}
