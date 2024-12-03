@@ -198,3 +198,43 @@
   } 
 }
 
+@media (max-width: 540px) {
+  .about_title {
+    font-size: 18px;
+    margin-top: 14px; 
+    margin-left: 40px;   
+  } 
+  .about_subtitle {
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 50px;
+  } 
+  .about_parag1 {
+    font-size: 10px;
+    margin: 10px 20px 0 60px;      
+  }
+  .about_help {
+    margin: 10px 20px 0 70px;  
+    padding: 10px;
+  }
+  .about_parag2 {
+    font-size: 10px;
+    margin: 6px;
+  }  
+  .about_dropdown {
+    margin: 8px 40px 10px 80px;
+    padding: 0;
+  }
+  .about_collapsible {
+    padding-top: 4px;
+  }
+  .about_parag3 {
+    font-size: 10px;
+  }
+  .about_lists {
+    padding-left: 20px;
+    padding-bottom: 10px;
+    font-size: 10px;
+  } 
+}
+

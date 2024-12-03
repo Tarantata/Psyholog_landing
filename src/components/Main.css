@@ -153,6 +153,9 @@
 }
 
 @media (max-width: 640px) {
+  .main {
+    padding: 0 60px;
+  }
   .main_frame {   
     grid-template-rows: 36% 26% auto;
   }
@@ -179,21 +182,35 @@
 }
 
 @media (max-width: 540px) {
+  .main {
+    padding: 0 20px;
+  }
+  .main_frame {
+    padding-left: 18px;
+  }
   .main_pic {
     margin-top: 40px;
-    width: 221px;
-    height: 230px
+    width: 177px;
+    height: 184px
   }
   .main_person {   
-    max-width: 300px;
+    max-width: 500px;
     padding-left: 16px;
     padding-top: 8px;
   } 
   .main_title {
-    font-size: 24px;
-    margin-top: 10px;    
+    font-size: 18px;
+    margin-top: 4px;    
   } 
+  .main_person {
+    padding-top: 6px;
+    padding-left: 6px;
+  }
   .main_name {
-    font-size: 14px;
+    font-size: 12px;
   } 
+  .main_job {
+    font-size: 8px;
+    margin-top: 4px;
+  }
 }

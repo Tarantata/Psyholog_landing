@@ -79,6 +79,24 @@
 @media (max-width: 640px) {
   .article_text {   
     font-size: 14px;
-   }
+  }
 }
+
+@media (max-width: 540px) {
+  .article_collapsible {
+    padding: 10px 30px 0 50px;
+  }
+  .article_header {
+    margin: 0;
+  }
+  .article_img {
+    width: 120px;
+    height: 120px;
+  }
+  .article_title, .article_text {   
+    font-size: 10px;
+  }
+}
+
+
 

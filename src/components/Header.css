@@ -20,7 +20,7 @@
 
 .button {
   max-width: 200px;
-  min-width: 82px;  
+  min-width: 56px;  
   text-align: center;
   color: #244CBB;
   font-size: 24px;
@@ -72,7 +72,25 @@
   }
   .button {
     height: 22px;
+    font-size: 9px;    
     margin-right: 8px;
     padding: 0;    
+  }
+}
+
+@media (max-width: 540px) {
+  .header {
+    height: 26px;
+    padding: 10px 10px;
+  }
+  .header_content {
+    justify-content: center;
+  }
+  .button {
+    height: 20px;
+    font-size: 8px; 
+    font-weight: bold;
+    margin-right: 12px;  
+    margin-top: 2px;
   }
 }

@@ -117,8 +117,33 @@
     height: 220px
   }
   .articles_quote {
-    font-size: 18px;    
+    font-size: 16px;
+    margin: 10px 0px 10px 42px; 
   }
+  .articles_title {
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }  
+}
+
+@media (max-width: 540px) {
+  .articles_img {
+    width: 179px;
+    height: 154px
+  }
+  .articles_quote {
+    font-size: 12px;
+    margin: 10px 0px 10px 32px; 
+  }
+  .articles_title {
+    font-size: 18px;
+    margin-top: 22px;
+    margin-bottom: 6px;
+  } 
+  .articles_content {
+    padding: 0;
+  }  
 }
 
 

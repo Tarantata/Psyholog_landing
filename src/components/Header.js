@@ -1,16 +1,10 @@
 import React from "react";
 import "./Header.css"
 import {useState, useEffect} from "react";
-// import {useTranslation} from "react-i18next";
 
 function Header() {
 
-  const [activeSection, setActiveSection] = useState(null);
-
-  // const { t, i18n } = useTranslation();
-  // const changeLanguage = (language) => {
-  //   i18n.changeLanguage(language);
-  // };
+  const [activeSection, setActiveSection] = useState(null);  
   
   useEffect(() => {
     const handleScroll = () => {
