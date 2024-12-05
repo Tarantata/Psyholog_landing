@@ -7,7 +7,7 @@ function Connect() {
   // const { t, i18n } = useTranslation();
 
   return (
-    <a href="/#contacts">
+    <a href="#contacts">
       <button className="connect">связаться со мной</button>
     </a>
   );
