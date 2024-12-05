@@ -1,10 +1,7 @@
 import React from "react";
 import "./Connect.css";
-// import {useTranslation} from "react-i18next";
 
 function Connect() {
-
-  // const { t, i18n } = useTranslation();
 
   return (
     <a href="#contacts">
