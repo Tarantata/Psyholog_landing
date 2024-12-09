@@ -5,30 +5,71 @@ import { useState, useEffect } from "react";
 function Header() {
   const [activeSection, setActiveSection] = useState(null);
 
+  // useEffect(() => {
+  //   const handleScroll = () => {
+  //     const sections = document.querySelectorAll("section");
+  //     sections.forEach((section) => {
+  //       if (isElementInViewport(section)) {
+  //         setActiveSection(section.id);
+  //         console.log(section.id);
+  //       }
+  //     });
+  //   };
+  //   window.addEventListener("scroll", handleScroll);
+  //   return () => window.removeEventListener("scroll", handleScroll);
+  // }, []);
+
   useEffect(() => {
     const handleScroll = () => {
       const sections = document.querySelectorAll("section");
+      let closestSection = null;
+      let minDistance = Infinity;
+
+      // Проверяем, достиг ли пользователь конца страницы
+      const isAtBottom =
+        window.innerHeight + window.scrollY >= document.body.scrollHeight;
+
+      if (isAtBottom) {
+        const lastSection = sections[sections.length - 1];
+        if (lastSection) {
+          setActiveSection(lastSection.id);
+        }
+        return;
+      }
+
+      // Определяем ближайший блок к верхней границе экрана
       sections.forEach((section) => {
-        if (isElementInViewport(section)) {
-          setActiveSection(section.id);
-          console.log(section.id);
+        const rect = section.getBoundingClientRect();
+        const distance = Math.abs(rect.top);
+
+        if (distance < minDistance) {
+          minDistance = distance;
+          closestSection = section.id;
         }
       });
-    };
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
 
-  function isElementInViewport(element) {
-    const rect = element.getBoundingClientRect();
-    return (
-      rect.top < window.innerHeight &&
-      // rect.top > 0 &&
-      rect.bottom > 0 
-      // rect.left < window.innerWidth &&
-      // rect.right > 0
-    );
-  }
+      // Устанавливаем только если активная секция изменилась
+      if (closestSection && closestSection !== activeSection) {
+        setActiveSection(closestSection);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    handleScroll(); // Устанавливаем начальное значение
+
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, [activeSection]);
+
+  // function isElementInViewport(element) {
+  //   const rect = element.getBoundingClientRect();
+  //   return (
+  //     rect.top < window.innerHeight &&
+  //     // rect.top > 0 &&
+  //     rect.bottom > 0 
+  //     // rect.left < window.innerWidth &&
+  //     // rect.right > 0
+  //   );
+  // }
 
   return (
     <div className="header">
