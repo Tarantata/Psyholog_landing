@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Psyholog_landing/static/css/main.e24a0c36.css",
-    "main.js": "/Psyholog_landing/static/js/main.13a7f617.js",
+    "main.js": "/Psyholog_landing/static/js/main.acd4fc3a.js",
     "static/media/not_to_plan.png": "/Psyholog_landing/static/media/not_to_plan.e298d97bbb4b01ff57ed.png",
     "static/media/gifts_of_moth.png": "/Psyholog_landing/static/media/gifts_of_moth.97c409ae5315a6fa5d3e.png",
     "static/media/affirmations.jpeg": "/Psyholog_landing/static/media/affirmations.fcdf07c137e093719395.jpeg",
@@ -17,10 +17,10 @@
     "static/media/telegram.png": "/Psyholog_landing/static/media/telegram.18abfe5a353ebb540cdd.png",
     "index.html": "/Psyholog_landing/index.html",
     "main.e24a0c36.css.map": "/Psyholog_landing/static/css/main.e24a0c36.css.map",
-    "main.13a7f617.js.map": "/Psyholog_landing/static/js/main.13a7f617.js.map"
+    "main.acd4fc3a.js.map": "/Psyholog_landing/static/js/main.acd4fc3a.js.map"
   },
   "entrypoints": [
     "static/css/main.e24a0c36.css",
-    "static/js/main.13a7f617.js"
+    "static/js/main.acd4fc3a.js"
   ]
 }
