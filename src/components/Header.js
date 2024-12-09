@@ -23,9 +23,10 @@ function Header() {
     const rect = element.getBoundingClientRect();
     return (
       rect.top < window.innerHeight &&
-      rect.bottom > 0 &&
-      rect.left < window.innerWidth &&
-      rect.right > 0
+      // rect.top > 0 &&
+      rect.bottom > 0 
+      // rect.left < window.innerWidth &&
+      // rect.right > 0
     );
   }
 
