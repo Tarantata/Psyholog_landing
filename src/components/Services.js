@@ -54,8 +54,8 @@ function Services() {
           Длительная индивидуальная работа
           <br></br>
           Консультации для пар
-          <br></br>
-          <hr className="services_hr"></hr>
+          <br></br>         
+          <div className="services_line"></div>
         </h3>
         <h3 className="services_price services_price_3">50 минут / 5000 рублей</h3>
       </div>
