@@ -12,7 +12,7 @@ const communities = [
   {
     id: 3,
     name: "Действительный член АПС (Ассоциация Перинатальных Специалистов",
-    url: "https://perinat.ru/user.php",
+    url: "https://perinat.ru/person-484",
   },
   {
     id: 4,

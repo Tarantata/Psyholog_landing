@@ -14,7 +14,7 @@ function Main() {
         <h1 className="main_title">Забота о Вашем психологическом здоровье</h1>
         <div className="main_person">
           <h2 className="main_name">Ольга Геннадьевна Смирнова</h2>
-          <h3 className="main_job">Индивидуальные и семейные консультации</h3>
+          <h3 className="main_job">Индивидуальные и семейные консультации, групповая терапия</h3>
         </div>
         <img className="main_pic" alt="Olga1" src={olga1}/>
         <div className="main_connect">

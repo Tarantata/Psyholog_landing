@@ -2,8 +2,23 @@ import React from "react";
 import "./Services.css";
 import Connect from "./Connect";
 import olga2 from "../data/images/Olga_6-services.png";
+import problems from "../data/problems";
+import methods from "../data/methods";
 
 function Services() {
+
+  const listOfProblems = problems.map((item) => (
+    <li key={item.id}>
+      <p name={item.name}>{item.name}</p>
+    </li>
+  ));
+
+  const listOfMethods = methods.map((item) => (
+    <li key={item.id}>
+      <p name={item.name}>{item.name}</p>
+    </li>
+  ));
+
   return (
     <section className="services" id="services">
       <div className="services_frame">
@@ -18,32 +33,38 @@ function Services() {
         <div className="services_blur">
           <h2 className="services_question">Чем я могу быть Вам полезна?</h2>
         </div>
-        <ul className="services_list services_list_1">
+        {/* <ul className="services_list services_list_1">
           <li className="services_rec1">одиночество;</li>
           <li className="services_rec1">утрата смысла жизни;</li>
           <li className="services_rec1">депрессия;</li>
           <li className="services_rec1">тревога, панические атаки;</li>
           <li className="services_rec1">неврозы;</li>
           <li className="services_rec1">расстройства сна;</li>
-        </ul>  
-        <ul className="services_list services_list_2"> 
+        </ul>   */}
+
+        <ul className="services_list services_list_1">{listOfProblems}</ul>
+
+        {/* <ul className="services_list services_list_2"> 
           <li className="services_rec2">сексуальная неудовлетворенность и охлаждение в отношениях, трудности восстановления семейных отношений после измен;</li>
           <li className="services_rec2">возрастные кризисы;</li>
           <li className="services_rec2">социальная тревожность, коммуникативные трудности, непонимание со стороны родных и друзей;</li>
           <li className="services_rec2">психогенное бесплодие, подготовка к ВРТ, сопровождение на всех этапах беременности;</li>
           <li className="services_rec2">подготовка к «мягким» и комфортным родам.</li>
-        </ul>
+        </ul> */}
         <p className="services_text services_text_2">Ко мне приходят не только с проблемами. Некоторые мои клиенты хотят найти свое предназначение, увидеть новые смыслы в своей жизни, стать зрелой, целостной личностью, раскрыть свой творческий потенциал!
           <br></br>
           <br></br>                    
           В своей работе я использую следующие методы:
         </p>
-        <ul className="services_list services_list_3">
+        {/* <ul className="services_list services_list_3">
           <li className="services_rec2">КПТ (Когнитивно-Поведенческая терапия)</li>
           <li className="services_rec2">Аналитическая психология</li>
           <li className="services_rec2">ДПДГ (Десенсибилизация и Переработка Движением Глаз (англ. EMDR - Eye Movement Desensitization and Reprocessing)</li>
           <li className="services_rec2">Эриксоновский гипноз</li>         
-        </ul>
+        </ul> */}
+
+        <ul className="services_list services_list_3">{listOfMethods}</ul>
+
         <p className="services_text services_text_3">Наша работа с клиентом может быть как краткосрочной, так и длительной. Мы будем работать в атмосфере принятия, искреннего интереса и безопасности.</p>
         <div className="services_connect">
           <Connect />
