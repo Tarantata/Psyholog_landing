@@ -66,6 +66,10 @@
   grid-row: 3;
 }
 
+.services_points {
+  margin: 3px 0 3px 0;
+}
+
 .services_text {
   text-align: left;
   font-size: 24px;
@@ -105,7 +109,7 @@
 }
 
 .services_list_1 {  
-  grid-column: 1/span 5;
+  grid-column: 1/span 8;
   grid-row: 5;
 }
 
