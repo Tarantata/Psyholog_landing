@@ -1,14 +1,12 @@
 import React from "react";
+import { TypeAnimation } from "react-type-animation";
 import "./Main.css";
 import Connect from "./Connect";
 import olga1 from "../data/images/Olga_4-main.png";
-// import {useTranslation} from "react-i18next";
 
-function Main() {
+function Main() {  
 
-  // const { t, i18n } = useTranslation();
-  
-  return (   
+  return (  
     <section className="main" id="main">  
       <div className="main_frame">  
         <h1 className="main_title">Забота о Вашем психологическом здоровье</h1>
@@ -19,6 +17,17 @@ function Main() {
         <img className="main_pic" alt="Olga1" src={olga1}/>
         <div className="main_connect">
           <Connect />   
+        </div>
+        <div className="main_notice">         
+          <TypeAnimation          
+            sequence={[
+              "Ближайшая группа по ..... состоится .....",
+              1000,
+            ]}
+            speed={30}
+            repeat={Infinity}
+            cursor={false}
+          />
         </div>
       </div>
     </section>    

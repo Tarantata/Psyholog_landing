@@ -14,7 +14,7 @@
   margin: 0 auto 0 auto; 
   display: grid;
   grid-template-columns: auto 20%;
-  grid-template-rows: 40% auto auto;
+  grid-template-rows: 40% auto auto auto;
   grid-column-gap: 10px;
   grid-row-gap: 10px; 
 }
@@ -71,6 +71,17 @@
   grid-column: 1/ span 2;
   grid-row: 1/ span 3;
 }
+
+.main_notice {
+  padding: 20px 0;
+  text-align: left;
+  font-size: 32px;
+  font-family: "Comfortaa", Arial, Helvetica, sans-serif;
+  color: #C8DAEE;
+  margin-left: 24px;
+  grid-column: 1;
+  grid-row: 4;
+} 
 
 @media (max-width: 1280px) {    
   .main_frame {   

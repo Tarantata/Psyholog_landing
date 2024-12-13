@@ -3,21 +3,7 @@ import "./Header.css";
 import { useState, useEffect } from "react";
 
 function Header() {
-  const [activeSection, setActiveSection] = useState(null);
-
-  // useEffect(() => {
-  //   const handleScroll = () => {
-  //     const sections = document.querySelectorAll("section");
-  //     sections.forEach((section) => {
-  //       if (isElementInViewport(section)) {
-  //         setActiveSection(section.id);
-  //         console.log(section.id);
-  //       }
-  //     });
-  //   };
-  //   window.addEventListener("scroll", handleScroll);
-  //   return () => window.removeEventListener("scroll", handleScroll);
-  // }, []);
+  const [activeSection, setActiveSection] = useState(null); 
 
   useEffect(() => {
     const handleScroll = () => {
@@ -59,18 +45,7 @@ function Header() {
 
     return () => window.removeEventListener("scroll", handleScroll);
   }, [activeSection]);
-
-  // function isElementInViewport(element) {
-  //   const rect = element.getBoundingClientRect();
-  //   return (
-  //     rect.top < window.innerHeight &&
-  //     // rect.top > 0 &&
-  //     rect.bottom > 0 
-  //     // rect.left < window.innerWidth &&
-  //     // rect.right > 0
-  //   );
-  // }
-
+  
   return (
     <div className="header">
       <div className="header_content">
