@@ -4,13 +4,14 @@
   justify-content: center;  
   margin: 0;
   z-index: 5;
-  scroll-margin-top: 100px;
+  scroll-margin-top: 122px;
 }
  
 .services_frame {
   max-width: 1280px;
   width: 100%;      
-  background-color: #92BCEE;  
+  /* background-color: #92BCEE;   */
+  background-color: red;
   display: grid;
   grid-template-columns: repeat (9, auto);
   grid-template-rows: repeat (11, auto);
@@ -104,18 +105,13 @@
   font-family: "Raleway", Arial, Helvetica, sans-serif;
   line-height: 1.15;
   color: #244CBB;
-  margin: 0px 10px 0px 105px; 
+  margin: 0px 10px 20px 105px; 
   padding: 0;   
 }
 
 .services_list_1 {  
   grid-column: 1/span 8;
   grid-row: 5;
-}
-
-.services_list_2 {  
-  grid-column: 1/span 8;
-  grid-row: 6;
 }
 
 .services_list_3 { 
@@ -183,7 +179,7 @@
 
 @media (max-width: 1280px) {
   .services_top {
-    padding: 60px 0 20px 78px;
+    padding: 60px 0 50px 78px;
   }
   .services_title {
     font-size: 40px;   
@@ -203,10 +199,7 @@
   .services_text_1 {    
     grid-column: 1 / span 7;
     margin-right: 60px;
-  }
-  .services_list_1 {
-    grid-column: 1 / span 6;
-  }
+  } 
   .services_list_2, .services_list_3, .services_text_2 {
     grid-column: 1 / span 9;
     margin-right: 50px;
@@ -221,11 +214,14 @@
 }
 
 @media (max-width: 1024px) {  
+  .services {
+    scroll-margin-top: 80px;
+  }
   .services_top {
-    padding: 40px 0 40px 78px;
+    padding: 40px 0 10px 78px;
   }
   .services_title {
-    font-size: 36px;    
+    font-size: 32px;    
   }
   .services_pic {
     width: 333px;
@@ -247,7 +243,8 @@
     grid-column: 1 / span 7;
   }  
   .services_list_1 {
-    grid-column: 1 / span 7;
+    grid-column: 1 / span 9;
+    margin-right: 80px;
   }
   .services_question {
     font-size: 28px;
@@ -258,6 +255,9 @@
 }  
 
 @media (max-width: 768px) {
+  .services {
+    scroll-margin-top: 70px;
+  }
   .services_top {
     padding: 30px 0 30px 78px;
   }
@@ -290,6 +290,9 @@
 }
 
 @media (max-width: 640px) {
+  .services {
+    scroll-margin-top: 50px;
+  }
   .services_frame {
     grid-column-gap: 2px;
   }
@@ -337,6 +340,9 @@
 }
 
 @media (max-width: 540px) {
+  .services {
+    scroll-margin-top: 46px;
+  }
   .services_title {
     font-size: 18px;
     margin: 26px 0px 20px 30px;    
@@ -348,6 +354,7 @@
     width: 129px;
     height: 172px;
     grid-column: 9;
+    margin-left: 52px;
   }
   .services_quote1, .services_quote2 {
     font-size: 12px; 
@@ -386,6 +393,7 @@
     max-width: 280px;
     font-size: 10px;
     margin-left: 50px;
+    margin-right: 20px;
   }
   .services_list_1 {
     grid-column: 1 / span 9;

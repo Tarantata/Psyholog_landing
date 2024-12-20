@@ -5,6 +5,17 @@ import Connect from "./Connect";
 import olga1 from "../data/images/Olga_4-main.png";
 
 function Main() {  
+  <TypeAnimation
+    sequence={[
+      "Ближайшая группа по ..... состоится .....",
+      1000,
+      "Ближайшая группа по ..... состоится .....",
+      1000,
+    ]}
+    speed={30}
+    repeat={Infinity}
+    cursor={false}
+  />
 
   return (  
     <section className="main" id="main">  
@@ -19,15 +30,17 @@ function Main() {
           <Connect />   
         </div>
         <div className="main_notice">         
-          <TypeAnimation          
+         <TypeAnimation
             sequence={[
-              "Ближайшая группа по ..... состоится .....",
-              1000,
+              'Ближайшая группа по ..... состоится .....',
+              3000,
+              '',
             ]}
-            speed={30}
+            speed={2}
+            omitDeletionAnimation={true}
             repeat={Infinity}
             cursor={false}
-          />
+         />
         </div>
       </div>
     </section>    

@@ -31,6 +31,7 @@ function Contacts() {
             <h3> https://t.me/OlgaSmirnova_blog</h3>
           </div>
         </div>
+        {/* <div className="insertion">insertion</div> */}
       </div>
     </section>
   );

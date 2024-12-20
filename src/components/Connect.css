@@ -36,3 +36,11 @@
   }
 }
 
+@media (max-width: 640px) {
+  .connect {
+    width: 130px;
+    height: 30px;
+    font-size: 10px;
+  }
+}
+

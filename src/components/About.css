@@ -5,7 +5,7 @@
   flex-direction: column;  
   justify-content: center;  
   background-color: #C8DAEE;  
-  scroll-margin-top: 102px;
+  scroll-margin-top: 122px;
 }
 
 .about_title {
@@ -107,9 +107,13 @@
 }
 
 @media (max-width: 1024px) {
+  .about {
+    scroll-margin-top: 80px;
+  }
   .about_title {
     font-size: 36px;
     margin-left: 114px;
+    margin-top: 40px;
   } 
   .about_subtitle {
     font-size: 28px;
@@ -150,6 +154,9 @@
 }
 
 @media (max-width: 768px) {
+  .about {
+    scroll-margin-top: 70px;
+  }
   .about_title {
     font-size: 26px;
     margin-top: 40px;
@@ -178,6 +185,9 @@
 }
 
 @media (max-width: 640px) {
+  .about {
+    scroll-margin-top: 50px;
+  }
   .about_title {
     font-size: 20px;
     margin-top: 30px;    
@@ -199,6 +209,12 @@
 }
 
 @media (max-width: 540px) {
+  .services {
+    scroll-margin-top: 46px;
+  }
+  .about {
+    scroll-margin-top: 46px;
+  }
   .about_title {
     font-size: 18px;
     margin-top: 14px; 
