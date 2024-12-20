@@ -7,7 +7,6 @@ import About from "./About";
 import Services from "./Services";
 import Articles from "./Articles";
 import Contacts from "./Contacts";
-import Plug from "./Plug";
 
 function App() {
   return (
@@ -17,8 +16,7 @@ function App() {
       <About />
       <Services />
       <Articles />
-      <Contacts /> 
-      {/* <Plug /> */}
+      <Contacts />       
     </div> 
   );
 }
