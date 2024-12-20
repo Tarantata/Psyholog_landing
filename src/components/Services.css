@@ -10,8 +10,7 @@
 .services_frame {
   max-width: 1280px;
   width: 100%;      
-  /* background-color: #92BCEE;   */
-  background-color: red;
+  background-color: #92BCEE;    
   display: grid;
   grid-template-columns: repeat (9, auto);
   grid-template-rows: repeat (11, auto);
