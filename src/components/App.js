@@ -5,6 +5,7 @@ import Header from "./Header";
 import Main from "./Main";
 import About from "./About";
 import Services from "./Services";
+import Groups from "./Groups";
 import Articles from "./Articles";
 import Contacts from "./Contacts";
 
@@ -15,6 +16,7 @@ function App() {
       <Main />
       <About />
       <Services />
+      <Groups />
       <Articles />
       <Contacts />       
     </div> 

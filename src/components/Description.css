@@ -1,0 +1,11 @@
+.description_frame {
+  padding: 20px; 
+  margin-bottom: 40px; 
+  background-color: #C8DAEE;
+}
+
+.description_text {
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+  color: #244CBB;
+  font-size: 24px;
+}
