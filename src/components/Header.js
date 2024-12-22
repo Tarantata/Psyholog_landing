@@ -76,6 +76,15 @@ function Header() {
             Мои услуги
           </button>
         </a>
+        <a href="#groups">
+          <button
+            className={
+              activeSection === "groups" ? "button button_active" : "button"
+            }
+          >
+            Группы
+          </button>
+        </a>
         <a href="#articles">
           <button
             className={

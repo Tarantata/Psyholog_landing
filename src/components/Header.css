@@ -42,19 +42,23 @@
   padding-top: 3px;
 }
 
-@media (max-width: 1024px) {  
+@media (max-width: 1280px) {  
   .header {
     height: 60px;
+    padding: 20px 80px;
   }
   .button {   
-    font-size: 14px;
+    font-size: 18px;
     height: 36px;
     margin-right: 20px;
     padding: 7px;
   }
+  .button_active {
+    padding-top: 5px;
+  }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .header {
     height: 50px;
     padding: 10px 40px;
@@ -63,6 +67,20 @@
     height: 34px;
     margin-right: 16px;    
     font-size: 12px;
+    padding: 10px;
+  }
+  .button_active {
+    padding-top: 8px;
+  }
+}
+
+@media (max-width: 768px) {
+  .button {
+    height: 32px;    
+    padding: 8px;
+  }
+  .button_active {
+    padding-top: 6px;
   }
 }
 
@@ -91,7 +109,7 @@
     height: 20px;
     font-size: 8px; 
     font-weight: bold;
-    margin-right: 12px;  
-    margin-top: 2px;
+    margin-right: 4px;  
+    margin-top: 3px;
   }
 }
