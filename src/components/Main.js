@@ -29,7 +29,7 @@ function Main() {
         <div className="main_connect">
           <Connect />   
         </div>
-        <div className="main_notice">         
+        {/* <div className="main_notice">         
          <TypeAnimation
             sequence={[
               'Ближайшая группа по ..... состоится .....',
@@ -41,7 +41,7 @@ function Main() {
             repeat={Infinity}
             cursor={false}
          />
-        </div>
+        </div> */}
       </div>
     </section>    
   );
