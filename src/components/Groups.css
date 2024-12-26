@@ -4,7 +4,7 @@
   display: flex;
   flex-direction: column;  
   background-color: #C8DAEE;  
-  scroll-margin-top:100px;  
+  scroll-margin-top: 122px;  
 }
 
 .groups_frame {
@@ -64,6 +64,9 @@
 }
 
 @media (max-width: 1280px) {
+  .groups {
+    scroll-margin-top: 100px;
+  }
   .groups_title {
     font-size: 40px;
   }
@@ -76,8 +79,12 @@
 }
 
 @media (max-width: 1024px) {
+  .groups {
+    scroll-margin-top: 80px;
+  }
   .groups_frame {
     grid-template-columns: 80px auto 80px;
+    padding-bottom: 30px;
   }
   .groups_title {
     font-size: 32px;
@@ -99,6 +106,7 @@
 @media (max-width: 768px) {
   .groups {
     padding: 0 60px;
+    scroll-margin-top: 70px;
   }
   .groups_title {
     font-size: 26px;
@@ -112,6 +120,7 @@
   .groups_frame {
     grid-template-columns: 40px auto 40px;
     grid-template-rows: 360px auto 200px; 
+    padding-bottom: 20px;
   }
   .groups_backlayer {
     padding: 20px;
@@ -126,10 +135,12 @@
 @media (max-width: 640px) {
   .groups {
     padding: 0 50px;
+    scroll-margin-top: 50px;
   }
   .groups_frame {
     grid-template-columns: 30px auto 30px;
-    grid-template-rows: 280px auto 200px; 
+    grid-template-rows: 280px auto 200px;
+    padding-bottom: 10px; 
   }
   .groups_title {
     font-size: 20px;

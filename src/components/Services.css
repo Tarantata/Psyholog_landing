@@ -177,6 +177,9 @@
 }
 
 @media (max-width: 1280px) {
+  .services {
+    scroll-margin-top: 100px;
+  }
   .services_top {
     padding: 60px 0 50px 78px;
   }
@@ -214,7 +217,7 @@
 
 @media (max-width: 1024px) {  
   .services {
-    scroll-margin-top: 80px;
+    scroll-margin-top: 70px;
   }
   .services_top {
     padding: 40px 0 10px 78px;

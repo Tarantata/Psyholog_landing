@@ -28,10 +28,9 @@ function Contacts() {
           </div>
           <div className="contacts_option">
             <img className="contacts_images" src={telegram} alt="telegram" />
-            <h3> https://t.me/OlgaSmirnova_blog</h3>
+            <a className="contacts_telegram" href="https://t.me/OlgaSmirnova_blog">https://t.me/OlgaSmirnova_blog</a>
           </div>
-        </div>
-        {/* <div className="insertion">insertion</div> */}
+        </div>       
       </div>
     </section>
   );

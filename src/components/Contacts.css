@@ -54,8 +54,21 @@
   width: 80px;
   margin-right: 16px;
 }
+.contacts_telegram {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  unicode-bidi: isolate;
+}
 
 @media (max-width: 1280px) {
+  .contacts {
+    scroll-margin-top: 100px;
+  }
   .contacts_name {
     font-size: 48px;
     margin: 24px 24px 24px 0px;
@@ -71,7 +84,8 @@
 
 @media (max-width: 1024px) {    
   .contacts {
-    scroll-margin-top: 80px;    
+    scroll-margin-top: 70px; 
+    padding-bottom: 362px;   
   } 
   .contacts_name {
     font-size: 42px;   
@@ -95,10 +109,7 @@
   }
 }
 
-@media (max-width: 768px) { 
-  .contacts {
-    scroll-margin-top: 70px;    
-  } 
+@media (max-width: 768px) {  
   .contacts_name {
     font-size: 32px;   
   }
