@@ -57,12 +57,8 @@
 .contacts_telegram {
   display: block;
   font-size: 1.17em;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  font-weight: bold;
-  unicode-bidi: isolate;
+  margin-block-start: 1em; 
+  font-weight: bold; 
 }
 
 @media (max-width: 1280px) {
