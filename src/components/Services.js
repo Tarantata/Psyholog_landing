@@ -57,7 +57,7 @@ function Services() {
           <br></br>         
           <div className="services_line"></div>
         </h3>
-        <h3 className="services_price services_price_3">50 минут / 5000 рублей</h3>
+        <h3 className="services_price services_price_3">онлайн 10000 рублей / офлайн 11000 рублей - 50 минут</h3>
       </div>
     </section>
   );
