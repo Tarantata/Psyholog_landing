@@ -30,6 +30,7 @@ function Collapsible({ title, label }) {
         <ToggleButton onClick={handleClick} isActive={isActive} />
       </div>
       {isActive &&
+        // eslint-disable-next-line eqeqeq
         (label == 1 ? (
           <ul className="about_lists">{listOfCourses}</ul>
         ) : (

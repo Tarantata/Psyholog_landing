@@ -17,7 +17,7 @@ function Article({ content, onClick, isActive }) {
       <div className="article_units">
         {isActive && 
         <>       
-          <img className="article_img" src={img}></img>
+          <img className="article_img" alt="article"src={img}></img>
           {units.map((unit) => <p className="article_text" key = {unit}>{unit}</p>)}
         </>}
       </div>
