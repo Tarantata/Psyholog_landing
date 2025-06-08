@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/psy-landing/static/css/main.79119726.css",
-    "main.js": "/psy-landing/static/js/main.1bf7a35f.js",
-    "static/media/not_to_plan.png": "/psy-landing/static/media/not_to_plan.e298d97bbb4b01ff57ed.png",
-    "static/media/gifts_of_moth.png": "/psy-landing/static/media/gifts_of_moth.97c409ae5315a6fa5d3e.png",
-    "static/media/affirmations.jpeg": "/psy-landing/static/media/affirmations.fcdf07c137e093719395.jpeg",
-    "static/media/help_of_hypnosis.png": "/psy-landing/static/media/help_of_hypnosis.c3ff5303af42eb1a1b05.png",
-    "static/media/Olga_4-main.png": "/psy-landing/static/media/Olga_4-main.a9cf9cba62b2d353df19.png",
-    "static/media/reading5.png": "/psy-landing/static/media/reading5.029e4127d33bca9883f8.png",
-    "static/media/Olga_6-services.png": "/psy-landing/static/media/Olga_6-services.d65f7afae48eb65dbf13.png",
-    "static/media/lost_of_relat.jpeg": "/psy-landing/static/media/lost_of_relat.54dd210782c75edad83d.jpeg",
-    "static/media/closing_of_labor.jpeg": "/psy-landing/static/media/closing_of_labor.6865e45fae1bba1fead3.jpeg",
-    "static/media/whatsapp.png": "/psy-landing/static/media/whatsapp.484648ce32861a5c8aab.png",
-    "static/media/e-mail.png": "/psy-landing/static/media/e-mail.1b82ca4bb7584c98e9ea.png",
-    "static/media/telephone.png": "/psy-landing/static/media/telephone.02476d18c1b3364dafa6.png",
-    "static/media/telegram.png": "/psy-landing/static/media/telegram.18abfe5a353ebb540cdd.png",
-    "index.html": "/psy-landing/index.html",
-    "main.79119726.css.map": "/psy-landing/static/css/main.79119726.css.map",
-    "main.1bf7a35f.js.map": "/psy-landing/static/js/main.1bf7a35f.js.map"
+    "main.css": "/Psyholog_landing/static/css/main.79119726.css",
+    "main.js": "/Psyholog_landing/static/js/main.490302c9.js",
+    "static/media/not_to_plan.png": "/Psyholog_landing/static/media/not_to_plan.e298d97bbb4b01ff57ed.png",
+    "static/media/gifts_of_moth.png": "/Psyholog_landing/static/media/gifts_of_moth.97c409ae5315a6fa5d3e.png",
+    "static/media/affirmations.jpeg": "/Psyholog_landing/static/media/affirmations.fcdf07c137e093719395.jpeg",
+    "static/media/help_of_hypnosis.png": "/Psyholog_landing/static/media/help_of_hypnosis.c3ff5303af42eb1a1b05.png",
+    "static/media/Olga_4-main.png": "/Psyholog_landing/static/media/Olga_4-main.a9cf9cba62b2d353df19.png",
+    "static/media/reading5.png": "/Psyholog_landing/static/media/reading5.029e4127d33bca9883f8.png",
+    "static/media/Olga_6-services.png": "/Psyholog_landing/static/media/Olga_6-services.d65f7afae48eb65dbf13.png",
+    "static/media/lost_of_relat.jpeg": "/Psyholog_landing/static/media/lost_of_relat.54dd210782c75edad83d.jpeg",
+    "static/media/closing_of_labor.jpeg": "/Psyholog_landing/static/media/closing_of_labor.6865e45fae1bba1fead3.jpeg",
+    "static/media/whatsapp.png": "/Psyholog_landing/static/media/whatsapp.484648ce32861a5c8aab.png",
+    "static/media/e-mail.png": "/Psyholog_landing/static/media/e-mail.1b82ca4bb7584c98e9ea.png",
+    "static/media/telephone.png": "/Psyholog_landing/static/media/telephone.02476d18c1b3364dafa6.png",
+    "static/media/telegram.png": "/Psyholog_landing/static/media/telegram.18abfe5a353ebb540cdd.png",
+    "index.html": "/Psyholog_landing/index.html",
+    "main.79119726.css.map": "/Psyholog_landing/static/css/main.79119726.css.map",
+    "main.490302c9.js.map": "/Psyholog_landing/static/js/main.490302c9.js.map"
   },
   "entrypoints": [
     "static/css/main.79119726.css",
-    "static/js/main.1bf7a35f.js"
+    "static/js/main.490302c9.js"
   ]
 }
