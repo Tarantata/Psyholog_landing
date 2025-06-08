@@ -1,7 +1,7 @@
 {
   "name": "psy-landing",
   "version": "0.1.0",
-  "homepage": "https://Tarantata.github.io/psy-landing",
+  "homepage": "https://Tarantata.github.io/Psyholog_landing",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
